@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" 
+              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+              crossorigin="anonymous">
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+        crossorigin="anonymous"></script>
+        
+    </head>
+    
+    <body>      
+        
+        
+        <div class="container">
+            
+            <h1>Bank of NCI</h1>
+            
+            <img src="bank.png" alt="bank logo" class="image-responsive"/>
+        
+            <h3>Please select your action from below: </h3>
+        
+            <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Please select from here
+              <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="add.html"><strong>Add a new customer</strong></a></li>
+              <li><a href="add.html">Update an existing customer</a></li>
+              <li><a href="api/customers">See all customers</a></li>
+              <li><a href="addaccount.html"><strong>Create an account</strong></a></li>
+              <li><a href="api/accounts"> See all accounts </a></li>
+              <li><a href="api/customers/customerId/accounts/accountId">Show balance</a></li>
+              <li><a href="newtransaction.html"><strong>New transaction</strong></a></li>
+              <li><a href="api/transactions">Show all transactions</a>
+              <li role="separator" class="divider"></li>
+              <li><a href="index.html">Return to home</a></li>
+            </ul>
+            
+        </div>
+           
+        </div>
+        
+    </body>
+</html>
